@@ -4,7 +4,7 @@ A Windows desktop interface and Python command line client for the Moates
 Ostrich 2.0 EPROM emulator, derived from
 [Martin Strand's ostrich2](https://github.com/mstrand/ostrich2).
 
-Proposed GitHub repository:
+GitHub repository:
 `Rapidfire-001/ostrich2-app`. New contributions that Rapidfire has rights to
 license use the [MIT License](LICENSE). See [NOTICE.md](NOTICE.md) for license
 scope, Martin Strand's attribution, and the preserved upstream public-domain
