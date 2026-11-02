@@ -1,0 +1,36 @@
+Ostrich 2 App 0.1.0 - Windows x64
+Creator of new contributions: Rapidfire
+GitHub project owner: Rapidfire-001
+Upstream: Martin Strand, mstrand/ostrich2, commit 6e8e00730644bc4d77695d8ad3ccf692c044948c
+
+Extract the complete Windows ZIP and double-click Ostrich2.exe.
+Python is bundled; no Python installation is needed to run the application.
+FTDI VCP drivers are required separately. No drivers or firmware are included.
+Keep LICENSE, NOTICE.md, THIRD_PARTY_NOTICES.md, provenance/ and licenses/ with
+the executable when redistributing it. New contributions are MIT licensed;
+upstream's original public-domain declaration is preserved, not replaced.
+
+Features: serial device information, read-only memory viewer, BIN read/write,
+bank controls, bank-aware session memory map, range erase and full 512 KiB
+erase with readback verification. This release includes the erase indicator fix.
+
+Verification limits:
+- Existing automated tests use simulated serial devices and a Tcl/Tk GUI.
+- Build validation compares executable-embedded application bytecode with
+  the supplied source and checks creator/version metadata.
+- Launch/GUI checks do not verify physical USB communication.
+- Development user diagnostics reported working 256-byte and 4096-byte reads.
+- No automated end-to-end physical-device read/write/erase certification.
+- Normal BIN writes rely on acknowledgements; only erase performs full readback.
+- Bank-window address validation remains incomplete: for I/O banks 0-7 keep
+  addresses inside 0x0000-0xFFFF; I/O bank 8 exposes all 512 KiB.
+- Session records are not a tune filesystem and cannot detect other apps' edits.
+- Read the README before use. Back up first; never erase while running an engine.
+
+This is an unsigned build. The build recipe pins Python package versions and
+sets fixed build metadata and archive timestamps; byte-for-byte identical
+executables across different Windows/Python/toolchain installations are not
+claimed. SHA256SUMS verifies the particular supplied release files.
+
+No personal tunes, calibration BINs, ROMs, firmware, logs, backups, driver
+installers, credentials, or user settings are part of this release.
