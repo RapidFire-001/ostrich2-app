@@ -89,7 +89,7 @@ Python 3.12.14, Windows x64. Do not commit `dist/`, environments, personal BINs,
 backups, credentials, or driver packages. Preserve the bundled licenses and
 [third-party notices](THIRD_PARTY_NOTICES.md) when redistributing binaries.
 
-> **Microsoft Edge download notice:** Edge may show a warning or block a download from this repository. If the page or download is unavailable in Edge, you can also open the official GitHub page in Firefox or Chrome. If your browser or antivirus flags a file as malware, please report the exact warning and the file name or release version so I can investigate.
+> **Microsoft Edge download notice.** SmartScreen may warn that a file isn’t commonly downloaded when it has limited download history. If Edge or your antivirus shows a malware warning, please send the exact message and the file name or release version so I can investigate. If the GitHub page is unavailable in Edge, you can also view it in Firefox or Chrome. See [Microsoft’s SmartScreen guidance](https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation).
 
 To run a downloaded Windows release, extract its complete ZIP, then double-click
 `Ostrich2.exe`. No separate Python installation is required. Source is included
