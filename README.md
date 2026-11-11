@@ -119,3 +119,7 @@ Keep changes focused and run the existing tests. Do not submit proprietary tune
 files, firmware dumps, credentials, or vendor driver packages. New contributions
 should be submitted under MIT while preserving third-party attribution and the
 license scope in NOTICE.md. Do not contribute material you lack rights to share.
+
+## Support
+
+For help with this software, email [Rapid Fire Software Support](mailto:support@rapidfiresoftware.net). Include the software version, what you were trying to do, and any error message you saw.
