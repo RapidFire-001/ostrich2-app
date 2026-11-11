@@ -1,5 +1,7 @@
 # ostrich2-app
 
+Rapid Fire Ostrich 2.0 app for Windows with a Python command-line client for the Moates Ostrich 2.0 EPROM emulator.
+
 A Windows desktop interface and Python command line client for the Moates
 Ostrich 2.0 EPROM emulator, derived from
 [Martin Strand's ostrich2](https://github.com/mstrand/ostrich2).
